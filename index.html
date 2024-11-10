@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join the Shiplee Franchise</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Scroll-to-Top Button -->
+    <button id="scrollToTop" onclick="scrollToTop()">↑</button>
+
+    <!-- Dark Mode Toggle -->
+    <button id="darkModeToggle" onclick="toggleDarkMode()">🌙</button>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <h1>Join the Shiplee Franchise</h1>
+        <p>Expand your reach with Shiplee's trusted network.</p>
+        <button class="cta-button">Get Started</button>
+    </section>
+
+    <!-- Why Choose Shiplee Section -->
+    <section id="whyChoose">
+        <h2>Why Choose Shiplee?</h2>
+        <div class="accordion">
+            <div class="accordion-item">
+                <h3 onclick="toggleAccordion(this)">Fast Delivery <span>+</span></h3>
+                <p>Leverage our quick, reliable delivery network for your business.</p>
+            </div>
+            <div class="accordion-item">
+                <h3 onclick="toggleAccordion(this)">Extensive Network <span>+</span></h3>
+                <p>We cover nationwide locations for maximum reach.</p>
+            </div>
+            <!-- Add more items as needed -->
+        </div>
+    </section>
+
+    <!-- Franchise Benefits Table -->
+    <section id="benefits">
+        <h2>Franchise Benefits</h2>
+        <table>
+            <tr>
+                <th>Benefit</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Low Investment</td>
+                <td>Start with minimal costs and high return potential.</td>
+            </tr>
+            <tr>
+                <td>24/7 Support</td>
+                <td>Receive dedicated support around the clock.</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- From Anywhere to Everywhere Section -->
+    <section id="reach">
+        <h2>From Anywhere to Everywhere</h2>
+        <img src="https://superuser.openinfra.dev/wp-content/uploads/2023/05/Screenshot-2023-05-23-at-1.40.35-PM.png" alt="Network Map" loading="lazy">
+    </section>
+
+    <!-- Partner Logos Section -->
+    <section id="partners">
+        <h2>Our Partners</h2>
+        <div class="logo-grid">
+            <img src="https://img.icons8.com/?size=100&id=102943&format=png&color=000000" alt="Partner 1" loading="lazy">
+            <img src="https://img.icons8.com/?size=100&id=ejcOANhDG1vD&format=png&color=000000" alt="Partner 2" loading="lazy">
+            <!-- Add more logos as needed -->
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
